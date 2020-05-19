@@ -2,12 +2,14 @@ import lxml.html
 import requests
 from bs4 import BeautifulSoup
 
+
 def wuma_image_empty_dict():
     keys = [
         "full_sample"
     ]
     meta_dict = {key: "" for key in keys}
     return meta_dict
+
 
 def empty_dict():
     """make a empty dict for task"""
@@ -211,15 +213,3 @@ def parse_url(url, headers):
         return None
     soup = BeautifulSoup(page.content.decode(), 'lxml')
     return soup
-
-
-
-
-
-
-
-
-
-
-
-
