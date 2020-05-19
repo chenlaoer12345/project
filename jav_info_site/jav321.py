@@ -281,6 +281,6 @@ def jav321_search(meta_321, code, return_dict):
 if __name__ == '__main__':
     test_dict = {}
     meta_321_test = empty_dict()
-    code_test = "kp-010"
+    code_test = "ipx-493"
     jav321_search(meta_321_test, code_test, test_dict)
     print(test_dict)

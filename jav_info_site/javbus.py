@@ -23,6 +23,7 @@ bus_headers = {
                   "537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36}",
 }
 
+
 # def bus_check_type(meta, soup, code):
 #     if soup is None:
 #         print("检查影片是否无码.....")
@@ -263,10 +264,8 @@ def javbus_search(meta_bus, code, return_dict, wuma=0):
 
 
 if __name__ == '__main__':
-    os.chdir(r"C:\Users\NoMoneyForAlienWare\Desktop\project")
     test_dict = {}
     meta_bus_test = empty_dict()
-    code_test = "SIRO-3183"
-    javbus_search(meta_bus_test, code_test, test_dict, 1)
+    code_test = "ipx-493"
+    javbus_search(meta_bus_test, code_test, test_dict, 0)
     print(test_dict)
-
